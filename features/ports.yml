@@ -1,0 +1,24 @@
+services:
+  adguardhome:
+    ports:
+      # Required for plain DNS:
+      - '53:53/tcp'
+      - '53:53/udp'
+      # Required for running a DHCP server:
+      - '67:67/udp'
+      - '68:68/tcp'
+      - '68:68/udp'
+      # Required for the admin panel and for running a HTTPS/DNS-over-HTTPS server:
+      - '80:80/tcp'
+      - '443:443/tcp'
+      - '443:443/udp'
+      - '3000:3000/tcp'
+      # Required for running a DNS-over-TLS server:
+      - '853:853/tcp'
+      # Required for running a DNS-over-QUIC server:
+      - '853:853/udp'
+      # Required for running a DNSCrypt server:
+      - '5443:5443/tcp'
+      - '5443:5443/udp'
+      # Required for running a pprof debug API:
+      - '6060:6060/tcp'

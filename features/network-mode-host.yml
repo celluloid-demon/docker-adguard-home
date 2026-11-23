@@ -1,0 +1,4 @@
+services:
+  adguardhome:
+    # To use AdGuard Home’s DHCP server, the --network host argument should be passed:
+    network_mode: "host"

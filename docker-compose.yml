@@ -1,0 +1,8 @@
+services:
+  adguardhome:
+    image: adguard/adguardhome:latest
+    volumes:
+      - "${VOLUMES}/conf:/opt/adguardhome/conf"
+      - "${VOLUMES}/work:/opt/adguardhome/work"
+    restart: unless-stopped
+    container_name: adguardhome
