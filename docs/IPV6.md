@@ -7,7 +7,11 @@ General notes:
 
 - It's a _potential_ instability, but a slow one.
 
+- It means our inventory isn't good. Regardless, we're going to push our inventory to its limits.
+
 - Printing a label with a reminder/warning on the device's chassis itself may be instructive, but really you should add a reminder on your calendar or to-do app.
+
+- oh, WHEN v6 system global prefix changes, that will break things, have clients flashed with secondary v6 dns, that way when things break all that happens is some ads stop being blocked
 
 ```txt
 
