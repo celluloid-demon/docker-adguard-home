@@ -7,6 +7,8 @@ General notes:
 
 - It's a _potential_ instability, but a slow one.
 
+- Printing a label with a reminder/warning on the device's chassis itself may be instructive, but really you should add a reminder on your calendar or to-do app.
+
 ```txt
 
 Every IPv6 interface automatically generates a permanent fe80::... address derived from its MAC address. Because it is tied to the physical NIC and never depends on your ISP, it never changes as long as IPv6 privacy extensions aren't overriding the primary link-local address.
