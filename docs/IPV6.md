@@ -5,6 +5,8 @@ General notes:
 
 - Tldr; Success with Adguard Home is VERY sensitive to a router firmware's ability to properly delegate v6 responsibilities to it (read: the best routers for this are ones with open firmware, or adguard hoome already built-in). For all other routers, work within their limitations, give them what they want and accept you'll likely have to periodically check in and verify/update their v6 dynamic global prefix for adguard's host interface.
 
+- It's a _potential_ instability, but a slow one.
+
 ```txt
 
 Every IPv6 interface automatically generates a permanent fe80::... address derived from its MAC address. Because it is tied to the physical NIC and never depends on your ISP, it never changes as long as IPv6 privacy extensions aren't overriding the primary link-local address.
